@@ -5,13 +5,7 @@ window.addEventListener('load', () => {
     getData();
 })
 
-input.addEventListener('change', (event) => {
-    getData();
-    // console.log(this)
-    if (event.target.value.length) {
-        searchBtn.style.display = 'none';
-    }
-})
+input.addEventListener('change', getData);
 
 input.addEventListener('input', (event) => {
     if (event.target.value.length) {
@@ -19,5 +13,5 @@ input.addEventListener('input', (event) => {
     } else {
         searchBtn.style.display = 'block';
     }
-})
+});
 
