@@ -10,4 +10,8 @@
     display: flex;
     flex: 1;
     gap: 10px;
+
+    &__img {
+        max-width: 45px;
+    }
 }
