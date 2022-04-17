@@ -29,6 +29,6 @@ function showData(data) {
     showData.flag = true
 }
 
-
+export const searchBtn = document.querySelector('.search__btn');
 
 
