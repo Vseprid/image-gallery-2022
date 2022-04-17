@@ -1,0 +1,13 @@
+.header {
+    border-bottom: $border;
+
+    &__container {
+        @extend %header-and-footer
+    }
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}

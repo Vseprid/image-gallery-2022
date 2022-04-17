@@ -1,0 +1,12 @@
+.footer__container {
+    @extend %header-and-footer
+}
+
+.link-me {
+    color:$font-color;
+    transition: .5s;
+
+    &:hover {
+        color: $active-color;
+    }
+}

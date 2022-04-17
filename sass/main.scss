@@ -1,0 +1,20 @@
+@import 'utils/variables';
+@import 'base/typography';
+@import 'base/global';
+@import 'layout/container';
+@import 'layout/header';
+@import 'layout/grid';
+@import 'layout/footer';
+@import 'components/search';
+
+
+.image {
+    width: 380px;
+    height: 214px;
+    margin-top: 15px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    cursor: pointer;
+
+  }
